@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+}
+.box {
+  background-color: #b0c6ff;
+  width: 1200px;
+  /* border: 1px solid #FFFFFF22; */
+  margin: 0 auto;
+}
+.header {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 24px;
+  color: white;
+}
+.cardholder {
+  padding: 0 64px;
+  padding-bottom: 16px;
+}
+.card {
+  background-color: white;
+  width: 240px;
+  display: inline-block;
+  padding: 21px;
+  margin-left: 32px;
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: 83px;
+}
+.firstcard {
+  margin-left: 0;
+}
+.firstrowcard {
+  margin-top: 0;
+}
+.image {
+  width: 139px;
+  height: 141px;
+}
+.name {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14.52px;
+  color: black;
+  text-align: center;
+  margin: 11px;
+}
+.text {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14.52px;
+  text-align: center;
+}
+.button {
+  background-color: #6177eb;
+  margin: 0 auto;
+  width: 160px;
+  height: 40px;
+  display: block;
+  box-sizing: border-box;
+}
+.press {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  color: white;
+  padding-top: 12px;
+}
