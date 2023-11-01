@@ -1,0 +1,48 @@
+.container {
+  background-color: #c4c4c4;
+  width: 1100px;
+  padding: 50px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.first {
+  background-color: #e6e6e6;
+  margin-bottom: 50px;
+}
+.item {
+  width: 200px;
+  height: 200px;
+  background-color: #fc8f8f;
+  font-weight: bold;
+  font-size: 64px;
+  color: white;
+  padding-top: 63px;
+  text-align: center;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.small {
+  width: 100px;
+  height: 100px;
+  font-size: 40px;
+  padding-top: 25px;
+}
+.clearfix {
+  clear: both;
+}
+.second {
+  background-color: #e6e6e6;
+  margin-bottom: 50px;
+}
+.right-box {
+  float: right;
+}
+.third {
+  background-color: #e6e6e6;
+}
+.third > .item:first-child {
+  margin-right: 11px;
+}
+.right-box > .item:not(:last-child) {
+  margin-right: 11px;
+}
