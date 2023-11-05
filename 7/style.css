@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  font-family: "Roboto";
+}
+.header-section {
+  background-color: #eeeff1;
+}
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.header-container {
+  padding: 79px 0 141px;
+}
+.nav-list {
+  list-style-type: none;
+}
+.nav-list-item {
+  display: inline-block;
+  margin-right: 42px;
+}
+.nav-list-link {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26.25px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+.nav-list-link:any-link {
+  color: black;
+}
+.header {
+  width: 541px;
+  height: 45px;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 78.75px;
+  margin: 151px 0 60px;
+}
+.text {
+  margin: 0 0 65px;
+  color: #727272;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.25px;
+}
+.button {
+  text-align: center;
+  padding: 19px 41px 20px 41px;
+  background-color: #34547a;
+  display: inline-block;
+  text-decoration-line: none;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.25px;
+  letter-spacing: 1.6px;
+}
+.about-section {
+  background-color: white;
+}
+.about-container {
+  padding: 112px 0 100px;
+}
+.small-header {
+  text-align: center;
+  height: 30px;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+.text-with-padding {
+  text-align: center;
+  font-size: 16px;
+  color: #727272;
+  font-weight: 400;
+  line-height: 26.25px;
+  padding: 0 285px;
+}
+.blue-section {
+  background-color: #34547a;
+}
+.blue-container {
+  padding: 100px 0;
+}
+.projects-list {
+  list-style-type: none;
+}
+.project {
+  display: inline-block;
+  margin-right: 45px;
+}
+.project-info {
+  display: inline-block;
+  margin-left: 20px;
+}
+.project-title {
+  color: white;
+  font-size: 21px;
+  font-weight: 500;
+}
+.project-description {
+  color: white;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26.25px;
+}
+.how-section {
+  background-color: #eeeff1;
+}
+.how-container {
+  padding: 100px 0;
+}
+.video {
+  width: 1110px;
+  height: 600px;
+  margin-top: 57px;
+}
+.footer-container {
+  padding: 50px 0;
+}
+.author {
+  color: white;
+  font-size: 21px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.rights {
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21.328px;
+}
