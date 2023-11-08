@@ -19,6 +19,33 @@ body {
 .nav-list-item {
   display: inline-block;
   margin-right: 42px;
+  margin-left: 22px;
+  position: relative;
+}
+.nav-list-link::before {
+  content: "";
+  background-size: 19px;
+  width: 19px;
+  height: 19px;
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: -22px;
+}
+.homepage-link::before {
+  background-image: url("./images/homepage.png");
+}
+.about-author-link::before {
+  background-image: url("./images/about-author.png");
+}
+.works-link::before {
+  background-image: url("./images/works.png");
+}
+.process-link::before {
+  background-image: url("./images/process.png");
+}
+.contracts-link::before {
+  background-image: url("./images/contracts.png");
 }
 .nav-list-link {
   font-size: 16px;
@@ -31,8 +58,6 @@ body {
   color: black;
 }
 .header {
-  width: 541px;
-  height: 45px;
   font-size: 48px;
   font-weight: 500;
   line-height: 78.75px;
