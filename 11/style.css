@@ -1,0 +1,222 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  font-family: "Red Hat Display";
+}
+.header-section {
+  background-color: #f9f6f5;
+}
+.header-background-image {
+  background-image: url("./images/purchase-image.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+}
+.header-background-image_align {
+  max-width: 1640px;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 109px;
+}
+.container_align {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_margin {
+  margin-bottom: 108px;
+}
+.logo {
+  color: #222;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 30px;
+  text-decoration-line: underline;
+}
+.navigation__list {
+  display: flex;
+  column-gap: 40px;
+}
+.navigation__link {
+  color: #222;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.actions-list {
+  display: flex;
+  column-gap: 24px;
+}
+.purchase-header {
+  color: #000;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 70px;
+}
+.purchase-header_margin {
+  margin-bottom: 30px;
+}
+.purchase-description {
+  color: #555;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.purchase-description_margin {
+  margin-bottom: 30px;
+}
+.input-container {
+  width: 326px;
+  height: 48px;
+  position: relative;
+}
+.input-container_margin {
+  margin-bottom: 60px;
+}
+.input-container__input {
+  width: 326px;
+  height: 48px;
+  color: #999;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.input-container__input_padding {
+  padding: 0 48px 0 16px;
+}
+.input-container__button {
+  background-color: #402f2c;
+  width: 32px;
+  height: 32px;
+}
+.input-container__button_position {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+.input-container__button:hover {
+  cursor: pointer;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 148px;
+  height: 56px;
+  background-color: #402f2c;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+.production-section {
+  background-color: white;
+}
+.production-container_padding {
+  padding: 130px 0;
+}
+.partners-list {
+  display: flex;
+  justify-content: space-between;
+}
+.partners-list_space {
+  border-top: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  padding: 44.5px 0;
+  margin-bottom: 130px;
+}
+.products-header {
+  color: #000;
+  font-size: 56px;
+  font-weight: 500;
+  line-height: 70px;
+}
+.products-header_margin {
+  margin-bottom: 20px;
+}
+.products-info-link {
+  display: flex;
+  justify-content: space-between;
+}
+.products-info-link_margin {
+  margin-bottom: 60px;
+}
+.products-info {
+  color: #555;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.products-link {
+  color: #222;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  text-decoration-line: underline;
+  position: relative;
+}
+.products-link_margin {
+  margin-right: 32px;
+}
+.products-link::after {
+  content: "";
+  background-image: url("./images/arrow-right.png");
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  right: -32px;
+  top: 3px;
+}
+.products-container {
+  display: flex;
+  justify-content: space-between;
+}
+.product-card {
+  width: 600px;
+}
+.product-card__info-container_padding-border {
+  padding: 20.24px 32px 32px;
+  border-left: 1px solid rgba(104, 90, 82, 0.19);
+  border-right: 1px solid rgba(104, 90, 82, 0.19);
+  border-bottom: 1px solid rgba(104, 90, 82, 0.19);
+}
+.product-card__title {
+  color: #222;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 60px;
+}
+.product-card__description {
+  color: #555;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.product-card__description_margin {
+  margin-bottom: 47.76px;
+}
+.product-card__buttons-price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.product-card__buttons-group {
+  display: flex;
+  column-gap: 24px;
+}
+.product-card__button_type_secondary {
+  width: 162px;
+  background-color: #fff;
+  color: #402f2c;
+  border: 1px solid rgba(104, 90, 82, 0.46);
+}
+.product-card__price {
+  color: #222;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 32px;
+}
