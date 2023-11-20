@@ -11,13 +11,13 @@ body {
   background-position-x: right;
   background-position-y: bottom;
 }
-.header-background-image_align {
+.header-section__image {
   max-width: 1640px;
   margin: 0 auto;
   padding-top: 40px;
   padding-bottom: 109px;
 }
-.container_align {
+.container {
   max-width: 1240px;
   margin: 0 auto;
 }
@@ -26,7 +26,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.header_margin {
+.header-container__header {
   margin-bottom: 108px;
 }
 .logo {
@@ -51,49 +51,39 @@ body {
   display: flex;
   column-gap: 24px;
 }
-.purchase-header {
+.purchase-container__header {
+  margin-bottom: 30px;
   color: #000;
   font-size: 56px;
   font-weight: 500;
   line-height: 70px;
 }
-.purchase-header_margin {
+.purchase-container__description {
   margin-bottom: 30px;
-}
-.purchase-description {
   color: #555;
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
 }
-.purchase-description_margin {
-  margin-bottom: 30px;
-}
-.input-container {
+.purchase-container__input-container {
+  margin-bottom: 60px;
   width: 326px;
   height: 48px;
   position: relative;
 }
-.input-container_margin {
-  margin-bottom: 60px;
-}
-.input-container__input {
+.purchase-container__input {
   width: 326px;
   height: 48px;
   color: #999;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
-}
-.input-container__input_padding {
   padding: 0 48px 0 16px;
 }
-.input-container__button {
+.purchase-container__input-button {
   background-color: #402f2c;
   width: 32px;
   height: 32px;
-}
-.input-container__button_position {
   position: absolute;
   top: 8px;
   right: 8px;
@@ -101,12 +91,9 @@ body {
 .input-container__button:hover {
   cursor: pointer;
 }
-.button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 148px;
-  height: 56px;
+.purchase-container__button {
+  display: inline-block;
+  padding: 16px 32px;
   background-color: #402f2c;
   color: #fff;
   font-size: 18px;
@@ -116,14 +103,14 @@ body {
 .production-section {
   background-color: white;
 }
-.production-container_padding {
+.production-section__content {
   padding: 130px 0;
 }
 .partners-list {
   display: flex;
   justify-content: space-between;
 }
-.partners-list_space {
+.production-section__partners {
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
   padding: 44.5px 0;
@@ -135,14 +122,14 @@ body {
   font-weight: 500;
   line-height: 70px;
 }
-.products-header_margin {
+.products__header {
   margin-bottom: 20px;
 }
 .products-info-link {
   display: flex;
   justify-content: space-between;
 }
-.products-info-link_margin {
+.products__info-link {
   margin-bottom: 60px;
 }
 .products-info {
@@ -159,7 +146,7 @@ body {
   text-decoration-line: underline;
   position: relative;
 }
-.products-link_margin {
+.products__link {
   margin-right: 32px;
 }
 .products-link::after {
@@ -178,7 +165,7 @@ body {
 .product-card {
   width: 600px;
 }
-.product-card__info-container_padding-border {
+.product-card__info-container {
   padding: 20.24px 32px 32px;
   border-left: 1px solid rgba(104, 90, 82, 0.19);
   border-right: 1px solid rgba(104, 90, 82, 0.19);
@@ -195,8 +182,6 @@ body {
   font-size: 20px;
   font-weight: 400;
   line-height: 32px;
-}
-.product-card__description_margin {
   margin-bottom: 47.76px;
 }
 .product-card__buttons-price {
@@ -208,8 +193,16 @@ body {
   display: flex;
   column-gap: 24px;
 }
+.product-card__button {
+  display: inline-block;
+  padding: 16px 32px;
+  background-color: #402f2c;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
 .product-card__button_type_secondary {
-  width: 162px;
   background-color: #fff;
   color: #402f2c;
   border: 1px solid rgba(104, 90, 82, 0.46);
