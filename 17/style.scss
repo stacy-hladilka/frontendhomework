@@ -1,0 +1,137 @@
+$start-delay: 2000ms;
+$animation-duration: 7000ms;
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px;
+}
+.background-image {
+  background-image: url("./images/owl-house.png");
+  width: 100%;
+  aspect-ratio: 1344/756;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+.background-image__cell {
+  background-color: white;
+  animation-duration: $animation-duration;
+  animation-name: in-out-fade;
+  animation-iteration-count: 1;
+}
+.background-image__cell:nth-child(1) {
+  animation-delay: $start-delay + 0 * ($animation-duration / 4740ms);
+}
+
+.background-image__cell:nth-child(2) {
+  animation-delay: $start-delay + 140ms * ($animation-duration / 4740ms);
+}
+
+.background-image__cell:nth-child(3) {
+  animation-delay: $start-delay + 200ms * ($animation-duration / 4740ms);
+}
+
+.background-image__cell:nth-child(4) {
+  animation-delay: $start-delay + 330ms * ($animation-duration / 4740ms);
+}
+
+.background-image__cell:nth-child(5) {
+  animation-delay: $start-delay + 420ms * ($animation-duration / 4740ms);
+}
+
+.background-image__cell:nth-child(6) {
+  animation-delay: $start-delay + 420ms * ($animation-duration / 4740ms);
+}
+
+.background-image__cell:nth-child(7) {
+  animation-delay: $start-delay + 670ms * ($animation-duration / 4740ms);
+}
+
+.background-image__cell:nth-child(8) {
+  animation-delay: $start-delay + 420ms * ($animation-duration / 4740ms);
+}
+
+.background-image__cell:nth-child(9) {
+  animation-delay: $start-delay + 790ms * ($animation-duration / 4740ms);
+}
+
+.background-image__cell:nth-child(10) {
+  animation-delay: $start-delay + 890ms * ($animation-duration / 4740ms);
+}
+
+.background-image__cell:nth-child(11) {
+  animation-delay: $start-delay + 980ms * ($animation-duration / 4740ms);
+}
+
+.background-image__cell:nth-child(12) {
+  animation-delay: $start-delay + 1080ms * ($animation-duration / 4740ms);
+}
+
+.background-image__cell:nth-child(13) {
+  animation-delay: $start-delay + 1200ms * ($animation-duration / 4740ms);
+}
+
+.background-image__cell:nth-child(14) {
+  animation-delay: $start-delay + 1290ms * ($animation-duration / 4740ms);
+}
+
+.background-image__cell:nth-child(15) {
+  animation-delay: $start-delay + 1400ms * ($animation-duration / 4740ms);
+}
+
+.background-image__cell:nth-child(16) {
+  animation-delay: $start-delay + 1400ms * ($animation-duration / 4740ms);
+}
+
+.background-image__cell:nth-child(17) {
+  animation-delay: $start-delay + 1600ms * ($animation-duration / 4740ms);
+}
+
+.background-image__cell:nth-child(18) {
+  animation-delay: $start-delay + 1400ms * ($animation-duration / 4740ms);
+}
+
+.background-image__cell:nth-child(19) {
+  animation-delay: $start-delay + 1790ms * ($animation-duration / 4740ms);
+}
+
+.background-image__cell:nth-child(20) {
+  animation-delay: $start-delay + 1890ms * ($animation-duration / 4740ms);
+}
+
+.background-image__cell:nth-child(21) {
+  animation-delay: $start-delay + 1970ms * ($animation-duration / 4740ms);
+}
+
+.background-image__cell:nth-child(22) {
+  animation-delay: $start-delay + 2080ms * ($animation-duration / 4740ms);
+}
+
+.background-image__cell:nth-child(23) {
+  animation-delay: $start-delay + 2180ms * ($animation-duration / 4740ms);
+}
+
+.background-image__cell:nth-child(24) {
+  animation-delay: $start-delay + 2290ms * ($animation-duration / 4740ms);
+}
+
+.background-image__cell:nth-child(25) {
+  animation-delay: $start-delay + 2380ms * ($animation-duration / 4740ms);
+}
+@keyframes in-out-fade {
+  0% {
+    opacity: 1;
+  }
+  47.5% {
+    opacity: 0;
+  }
+  52.5% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
