@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header-section section">
+      <div class="header-container">
+        <a href="#" class="logo">
+          <img src="./icons/logo.svg" alt="" class="logo__icon" />
+        </a>
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Marketplace</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Rankings</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#" class="navigation__link">Connect a wallet</a>
+            </li>
+          </ul>
+          <div class="navigation__button">
+            <a href="#" class="navigation__button-link">
+              <img
+                src="./icons/user.svg"
+                alt=""
+                class="navigation__button-icon"
+              />
+              Sign Up</a
+            >
+          </div>
+        </nav>
+        <button class="burger-button">
+          <img
+            src="./icons/burger-menu.svg"
+            alt="icon"
+            class="burger-menu-icon"
+          />
+        </button>
+      </div>
+    </header>
+
+    <main class="main-section section">
+      <div class="main-container main">
+        <div class="main__image-wrapper">
+          <img src="./images/main.png" alt="image" class="main__image" />
+        </div>
+        <div class="main__content">
+          <h1 class="main__title">Create account</h1>
+          <p class="main__text">
+            Welcome! enter your details and start <br />
+            creating, collecting and selling NFTs.
+          </p>
+          <form class="main__form" onsubmit="">
+            <div class="main__inputs">
+              <div class="main__input-wrapper">
+                <img
+                  src="./icons/inputs/user.svg"
+                  alt="icon"
+                  class="main__input-icon"
+                />
+                <input placeholder="Username" type="text" class="main__input" />
+              </div>
+              <div class="main__input-wrapper">
+                <img
+                  src="./icons/inputs/mail.svg"
+                  alt="icon"
+                  class="main__input-icon"
+                />
+                <input
+                  placeholder="Email Address"
+                  type="email"
+                  class="main__input"
+                />
+              </div>
+              <div class="main__input-wrapper">
+                <img
+                  src="./icons/inputs/lock.svg"
+                  alt="icon"
+                  class="main__input-icon"
+                />
+                <input
+                  placeholder="Password"
+                  type="password"
+                  class="main__input"
+                />
+              </div>
+              <div class="main__input-wrapper">
+                <img
+                  src="./icons/inputs/lock.svg"
+                  alt="icon"
+                  class="main__input-icon"
+                />
+                <input
+                  placeholder="Confirm Password"
+                  type="password"
+                  class="main__input"
+                />
+              </div>
+            </div>
+
+            <button type="submit" class="main__button">Create account</button>
+          </form>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer-section section">
+      <div class="footer-container container">
+        <div class="footer-links-wrapper">
+          <div class="socials">
+            <a href="#" class="socials__link"
+              ><img
+                src="./icons/logo.svg"
+                alt="title-logo"
+                class="socials__title-logo"
+            /></a>
+            <p class="socials__description">
+              NFT marketplace UI created with Anima for Figma.
+            </p>
+            <p class="socials__description">Join our community</p>
+            <div class="socials__icons-container">
+              <a href="#" class="socials__icon-link">
+                <img
+                  src="./icons/socials/discord.svg"
+                  alt="icon"
+                  class="socials__icon"
+                />
+              </a>
+              <a href="#" class="socials__icon-link">
+                <img
+                  src="./icons/socials/youtube.svg"
+                  alt="icon"
+                  class="socials__icon"
+                />
+              </a>
+              <a href="#" class="socials__icon-link">
+                <img
+                  src="./icons/socials/twitter.svg"
+                  alt="icon"
+                  class="socials__icon"
+                />
+              </a>
+              <a href="#" class="socials__icon-link">
+                <img
+                  src="./icons/socials/instagram.svg"
+                  alt="icon"
+                  class="socials__icon"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="links">
+            <h5 class="links__title">Explore</h5>
+            <a href="#" class="links__item">Marketplace</a>
+            <a href="#" class="links__item">Rankings</a>
+            <a href="#" class="links__item">Connect a wallet</a>
+          </div>
+          <div class="digest">
+            <h5 class="digest__title">Join Our Weekly Digest</h5>
+            <p class="digest__description">
+              Get exclusive promotions & updates straight to your inbox.
+            </p>
+            <div class="digest__input-button">
+              <input
+                placeholder="Enter your email here"
+                type="text"
+                class="digest__input"
+              />
+              <a href="#" class="digest__button">Subscribe</a>
+            </div>
+          </div>
+        </div>
+        <hr class="footer-separator" />
+        <p class="footer-copyrights">Ⓒ NFT Market. Use this template freely.</p>
+      </div>
+    </footer>
+  </body>
+</html>
